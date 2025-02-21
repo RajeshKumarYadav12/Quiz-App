@@ -28,10 +28,13 @@ Then open http://localhost:5173 in your browser.
 
 📌 IndexedDB Data Storage
 The app uses IndexedDB to store previous quiz attempts.
+
 To check stored quiz history:
 
 1️⃣ Open Developer Tools (F12)
+
 2️⃣ Navigate to the Application tab
+
 3️⃣ Expand IndexedDB → QuizDB → quizHistory
 
 🙌 Contributing
