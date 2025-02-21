@@ -142,7 +142,7 @@ const Quiz = () => {
         </>
       ) : (
         <>
-          <h2>{index + 1}. {question.question}</h2>
+          <h2 className="question">{index + 1}. {question.question}</h2>
 
           {/* Check if the question has multiple-choice options */}
           {question.option1 ? (
